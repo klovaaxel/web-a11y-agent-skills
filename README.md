@@ -98,6 +98,12 @@ These skills synthesize public web accessibility practice. Useful public referen
 - WebAIM articles and tools
 - axe and browser DevTools documentation
 
+## Acknowledgements
+
+This project is strongly influenced by *Web Accessibility Cookbook* by Manuel Matuzovic (O'Reilly). The book helped shape the skill pack's practical focus on real frontend patterns, implementation trade-offs, and verification workflows.
+
+These skills are original agent workflows and are not a substitute for the book. If you want the complete recipes, examples, and explanations, buy or read the original work.
+
 ## License
 
 MIT

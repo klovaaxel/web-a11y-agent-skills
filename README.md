@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Cursor compatible](https://img.shields.io/badge/Cursor-compatible-5A45FF)
 ![Claude Code compatible](https://img.shields.io/badge/Claude%20Code-compatible-D97757)
+![GitHub Copilot compatible](https://img.shields.io/badge/GitHub%20Copilot-compatible-24292F)
+![OpenCode compatible](https://img.shields.io/badge/OpenCode-compatible-111827)
 ![10 skills / 5 subagents](https://img.shields.io/badge/10%20skills%20%2F%205%20subagents-ready-2EA043)
 
 Framework-agnostic web accessibility skills and Cursor subagents for AI coding agents.
@@ -18,7 +20,9 @@ Public preview. Skill names and install flow may still change before 1.0.
 - MIT licensed, plain Markdown skills, and no runtime dependency required by the skills themselves.
 - Compatible with Cursor skills and subagents.
 - Compatible with Claude Code through `~/.claude/skills` and `~/.claude/agents` installers.
-- Includes 10 portable skills, 5 Cursor subagents, and 5 Claude Code subagents.
+- Compatible with GitHub Copilot through `.github/skills` and `.github/prompts` installers.
+- Compatible with OpenCode through `~/.config/opencode/skills` and `~/.config/opencode/agents` installers.
+- Includes 10 portable skills, 5 Cursor subagents, 5 Claude Code subagents, 5 OpenCode subagents, and a Copilot prompt workflow.
 - Includes a small changelog, an example agent output, and a terminal-style skill list screenshot.
 
 ## What's Included
@@ -113,6 +117,45 @@ By default, the scripts install to `~/.claude/skills` and `~/.claude/agents`. Ov
 ```bash
 WEB_A11Y_AGENT_SKILLS_CLAUDE_SKILLS_DIR=/path/to/skills node scripts/install-claude-skills.mjs
 WEB_A11Y_AGENT_SKILLS_CLAUDE_AGENT_DIR=/path/to/agents node scripts/install-claude-agents.mjs
+```
+
+## Install GitHub Copilot Skills And Prompts
+
+GitHub Copilot can use the skills as project-local agent skills and the prompt workflow as a reusable prompt file:
+
+```bash
+node scripts/install-copilot-assets.mjs /path/to/project
+```
+
+This installs skills to `/path/to/project/.github/skills` and prompt files to `/path/to/project/.github/prompts`.
+
+Override the target project with an environment variable:
+
+```bash
+WEB_A11Y_AGENT_SKILLS_COPILOT_PROJECT_DIR=/path/to/project node scripts/install-copilot-assets.mjs
+```
+
+## Install OpenCode Skills And Subagents
+
+OpenCode can use the same `SKILL.md` directories plus native markdown subagents:
+
+```bash
+node scripts/install-opencode-skills.mjs
+node scripts/install-opencode-agents.mjs
+```
+
+Use symlinks during development:
+
+```bash
+node scripts/install-opencode-skills.mjs --symlink
+node scripts/install-opencode-agents.mjs --symlink
+```
+
+By default, the scripts install to `~/.config/opencode/skills` and `~/.config/opencode/agents`. Override with:
+
+```bash
+WEB_A11Y_AGENT_SKILLS_OPENCODE_SKILLS_DIR=/path/to/skills node scripts/install-opencode-skills.mjs
+WEB_A11Y_AGENT_SKILLS_OPENCODE_AGENT_DIR=/path/to/agents node scripts/install-opencode-agents.mjs
 ```
 
 ## Suggested Agent Workflow

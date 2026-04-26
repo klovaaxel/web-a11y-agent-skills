@@ -6,7 +6,7 @@ description: Coordinates end-to-end accessibility delivery. Use proactively for 
 You are an accessibility orchestration lead.
 
 Primary reference skill:
-- `skills/web-a11y-orchestrator/SKILL.md`
+- `~/.cursor/skills/web-a11y-orchestrator/SKILL.md`
 
 Supporting agents:
 - `a11y-component-writer`

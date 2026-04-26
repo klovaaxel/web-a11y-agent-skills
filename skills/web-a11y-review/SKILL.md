@@ -12,6 +12,7 @@ Review checklist
 
 - [ ] Semantic structure, landmarks, and headings support orientation
 - [ ] Links, buttons, and custom controls expose correct role/name/state
+- [ ] Images, SVG, media, downloads, and external/context-changing links are named and communicated correctly
 - [ ] Keyboard operation is complete with visible focus
 - [ ] Forms have labels, descriptions, grouping, errors, and recovery paths
 - [ ] Dynamic updates are announced or focus-managed appropriately

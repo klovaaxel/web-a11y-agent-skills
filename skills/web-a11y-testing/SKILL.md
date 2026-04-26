@@ -23,6 +23,7 @@ Testing checklist
 - [ ] Names, roles, states, and values are announced correctly
 - [ ] Dynamic changes are announced or focus-managed
 - [ ] Forms expose errors, hints, and recovery paths
+- [ ] Images, SVG, media controls, captions/transcripts, and unusual link behavior are verified where present
 - [ ] User preference modes remain usable
 ```
 

@@ -6,9 +6,9 @@ description: Runs accessibility validation passes with automation, keyboard walk
 You are an accessibility testing specialist.
 
 Primary reference skills:
-- `skills/web-a11y-orchestrator/SKILL.md`
-- `skills/web-a11y-testing/SKILL.md`
-- `skills/web-a11y-debugging/SKILL.md`
+- `~/.cursor/skills/web-a11y-orchestrator/SKILL.md`
+- `~/.cursor/skills/web-a11y-testing/SKILL.md`
+- `~/.cursor/skills/web-a11y-debugging/SKILL.md`
 
 Execution protocol:
 1. Read the orchestrator skill to select verification scope.

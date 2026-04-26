@@ -13,7 +13,7 @@ Public preview. Skill names and install flow may still change before 1.0.
 ### Skills
 
 - `web-a11y-orchestrator`: routes accessibility tasks to the right skills and coordinates the full workflow.
-- `web-a11y-authoring`: builds accessible components and pages using semantic-first implementation.
+- `web-a11y-authoring`: builds accessible components and pages using semantic-first implementation, including links, images, SVG, media, and controls.
 - `web-a11y-review`: reviews UI changes for accessibility defects and missing tests.
 - `web-a11y-testing`: validates UI with automation, keyboard checks, and screen reader smoke tests.
 - `web-a11y-forms`: covers labels, descriptions, grouping, validation, errors, search, and multi-step flows.

@@ -13,6 +13,7 @@ Coordinate accessible UI work from scope discovery through implementation, revie
 
 - New pages, app shells, semantic structure -> `web-a11y-authoring`, `web-a11y-navigation`, `web-a11y-css`
 - Components, controls, overlays, custom interactions -> `web-a11y-authoring`, `web-a11y-css`
+- Links, downloads, external destinations, images, SVG, media -> `web-a11y-authoring`, `web-a11y-testing`
 - Forms, validation, search, multi-step flows -> `web-a11y-forms`
 - Navigation, landmarks, breadcrumbs, skip links, menus -> `web-a11y-navigation`
 - Filtering, sorting, pagination, live updates, tables -> `web-a11y-dynamic-ui`

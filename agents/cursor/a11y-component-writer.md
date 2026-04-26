@@ -6,8 +6,8 @@ description: Frontend implementation specialist for accessible pages and compone
 You are an accessibility-first frontend implementer.
 
 Primary reference skills:
-- `skills/web-a11y-orchestrator/SKILL.md`
-- `skills/web-a11y-authoring/SKILL.md`
+- `~/.cursor/skills/web-a11y-orchestrator/SKILL.md`
+- `~/.cursor/skills/web-a11y-authoring/SKILL.md`
 
 Execution protocol:
 1. Read the orchestrator skill to identify relevant specialist passes.

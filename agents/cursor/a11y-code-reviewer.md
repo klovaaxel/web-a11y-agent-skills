@@ -6,8 +6,8 @@ description: Accessibility review specialist for diffs and pull requests. Use pr
 You are a senior accessibility reviewer focused on actionable findings.
 
 Primary reference skills:
-- `skills/web-a11y-orchestrator/SKILL.md`
-- `skills/web-a11y-review/SKILL.md`
+- `~/.cursor/skills/web-a11y-orchestrator/SKILL.md`
+- `~/.cursor/skills/web-a11y-review/SKILL.md`
 
 Execution protocol:
 1. Read the orchestrator skill to identify required review passes.

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="500" viewBox="0 0 940 500" role="img" aria-labelledby="title desc">
+  <title id="title">Terminal screenshot listing Web A11y Agent Skills</title>
+  <desc id="desc">A terminal-style screenshot showing the npx skills add command listing ten accessibility skills.</desc>
+  <rect width="940" height="500" rx="18" fill="#0d1117"/>
+  <rect x="0" y="0" width="940" height="46" rx="18" fill="#161b22"/>
+  <circle cx="28" cy="23" r="7" fill="#ff5f56"/>
+  <circle cx="52" cy="23" r="7" fill="#ffbd2e"/>
+  <circle cx="76" cy="23" r="7" fill="#27c93f"/>
+  <text x="24" y="82" fill="#8b949e" font-family="Menlo, Consolas, monospace" font-size="17">$ npx skills add klovaaxel/web-a11y-agent-skills --list</text>
+  <text x="24" y="124" fill="#f0f6fc" font-family="Menlo, Consolas, monospace" font-size="17">Found 10 skills</text>
+  <text x="24" y="166" fill="#79c0ff" font-family="Menlo, Consolas, monospace" font-size="17">web-a11y-orchestrator</text>
+  <text x="300" y="166" fill="#c9d1d9" font-family="Menlo, Consolas, monospace" font-size="17">routes end-to-end accessibility work</text>
+  <text x="24" y="200" fill="#79c0ff" font-family="Menlo, Consolas, monospace" font-size="17">web-a11y-authoring</text>
+  <text x="300" y="200" fill="#c9d1d9" font-family="Menlo, Consolas, monospace" font-size="17">builds semantic accessible UI</text>
+  <text x="24" y="234" fill="#79c0ff" font-family="Menlo, Consolas, monospace" font-size="17">web-a11y-review</text>
+  <text x="300" y="234" fill="#c9d1d9" font-family="Menlo, Consolas, monospace" font-size="17">reviews diffs for a11y regressions</text>
+  <text x="24" y="268" fill="#79c0ff" font-family="Menlo, Consolas, monospace" font-size="17">web-a11y-testing</text>
+  <text x="300" y="268" fill="#c9d1d9" font-family="Menlo, Consolas, monospace" font-size="17">validates automation, keyboard, SR smoke</text>
+  <text x="24" y="302" fill="#79c0ff" font-family="Menlo, Consolas, monospace" font-size="17">web-a11y-forms</text>
+  <text x="300" y="302" fill="#c9d1d9" font-family="Menlo, Consolas, monospace" font-size="17">covers labels, errors, groups, search</text>
+  <text x="24" y="336" fill="#79c0ff" font-family="Menlo, Consolas, monospace" font-size="17">web-a11y-navigation</text>
+  <text x="300" y="336" fill="#c9d1d9" font-family="Menlo, Consolas, monospace" font-size="17">covers landmarks, headings, menus</text>
+  <text x="24" y="370" fill="#79c0ff" font-family="Menlo, Consolas, monospace" font-size="17">web-a11y-dynamic-ui</text>
+  <text x="300" y="370" fill="#c9d1d9" font-family="Menlo, Consolas, monospace" font-size="17">covers live regions, tables, pagination</text>
+  <text x="24" y="404" fill="#79c0ff" font-family="Menlo, Consolas, monospace" font-size="17">web-a11y-css</text>
+  <text x="300" y="404" fill="#c9d1d9" font-family="Menlo, Consolas, monospace" font-size="17">covers contrast, focus, motion, zoom</text>
+  <text x="24" y="438" fill="#79c0ff" font-family="Menlo, Consolas, monospace" font-size="17">web-a11y-web-components</text>
+  <text x="300" y="438" fill="#c9d1d9" font-family="Menlo, Consolas, monospace" font-size="17">covers custom elements and Shadow DOM</text>
+  <text x="24" y="472" fill="#79c0ff" font-family="Menlo, Consolas, monospace" font-size="17">web-a11y-debugging</text>
+  <text x="300" y="472" fill="#c9d1d9" font-family="Menlo, Consolas, monospace" font-size="17">covers a11y tree, CI, and tooling gaps</text>
+</svg>

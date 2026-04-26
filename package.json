@@ -4,9 +4,18 @@
   "description": "Framework-agnostic web accessibility skills and Cursor subagents for AI coding agents.",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://github.com/klovaaxel/web-a11y-agent-skills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klovaaxel/web-a11y-agent-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/klovaaxel/web-a11y-agent-skills/issues"
+  },
   "keywords": [
     "agent-skills",
     "cursor",
+    "claude-code",
     "accessibility",
     "a11y",
     "wcag",
@@ -16,17 +25,25 @@
   "files": [
     "skills",
     "agents",
+    "assets",
+    "docs",
     "scripts",
+    "CHANGELOG.md",
     "README.md",
     "LICENSE"
   ],
   "bin": {
-    "install-web-a11y-subagents": "./scripts/install-cursor-agents.mjs"
+    "install-web-a11y-subagents": "./scripts/install-cursor-agents.mjs",
+    "install-web-a11y-claude-skills": "./scripts/install-claude-skills.mjs",
+    "install-web-a11y-claude-agents": "./scripts/install-claude-agents.mjs"
   },
   "scripts": {
     "list:skills": "npx skills add . --list",
     "install:cursor": "npx skills add . -a cursor -g --skill '*' -y",
-    "install:cursor-agents": "node scripts/install-cursor-agents.mjs"
+    "install:cursor-agents": "node scripts/install-cursor-agents.mjs",
+    "install:claude": "node scripts/install-claude-skills.mjs && node scripts/install-claude-agents.mjs",
+    "install:claude-agents": "node scripts/install-claude-agents.mjs",
+    "install:claude-skills": "node scripts/install-claude-skills.mjs"
   },
   "agents": {
     "skills": [

@@ -1,0 +1,75 @@
+{
+  "name": "web-a11y-agent-skills",
+  "version": "0.1.0",
+  "description": "Framework-agnostic web accessibility skills and Cursor subagents for AI coding agents.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "cursor",
+    "accessibility",
+    "a11y",
+    "wcag",
+    "frontend",
+    "ai-agents"
+  ],
+  "files": [
+    "skills",
+    "agents",
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "install-web-a11y-subagents": "./scripts/install-cursor-agents.mjs"
+  },
+  "scripts": {
+    "list:skills": "npx skills add . --list",
+    "install:cursor": "npx skills add . -a cursor -g --skill '*' -y",
+    "install:cursor-agents": "node scripts/install-cursor-agents.mjs"
+  },
+  "agents": {
+    "skills": [
+      {
+        "name": "web-a11y-orchestrator",
+        "path": "./skills/web-a11y-orchestrator"
+      },
+      {
+        "name": "web-a11y-authoring",
+        "path": "./skills/web-a11y-authoring"
+      },
+      {
+        "name": "web-a11y-review",
+        "path": "./skills/web-a11y-review"
+      },
+      {
+        "name": "web-a11y-testing",
+        "path": "./skills/web-a11y-testing"
+      },
+      {
+        "name": "web-a11y-forms",
+        "path": "./skills/web-a11y-forms"
+      },
+      {
+        "name": "web-a11y-navigation",
+        "path": "./skills/web-a11y-navigation"
+      },
+      {
+        "name": "web-a11y-dynamic-ui",
+        "path": "./skills/web-a11y-dynamic-ui"
+      },
+      {
+        "name": "web-a11y-css",
+        "path": "./skills/web-a11y-css"
+      },
+      {
+        "name": "web-a11y-web-components",
+        "path": "./skills/web-a11y-web-components"
+      },
+      {
+        "name": "web-a11y-debugging",
+        "path": "./skills/web-a11y-debugging"
+      }
+    ]
+  }
+}

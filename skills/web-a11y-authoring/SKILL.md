@@ -7,6 +7,8 @@ description: Builds accessible pages and components with semantic HTML, correct 
 
 ## Core Rules
 
+For concrete markup patterns, see [PATTERNS.md](PATTERNS.md).
+
 1. Prefer native HTML controls before ARIA or custom widgets.
 2. Use links for navigation and buttons for actions.
 3. Ensure every interactive control has a clear accessible name.

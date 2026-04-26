@@ -7,6 +7,8 @@ description: Reviews frontend changes for accessibility regressions across seman
 
 ## Review Checklist
 
+For strong finding examples, see [FINDINGS.md](FINDINGS.md).
+
 ```markdown
 Review checklist
 

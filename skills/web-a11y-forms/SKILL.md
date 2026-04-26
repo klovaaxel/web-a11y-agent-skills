@@ -7,6 +7,8 @@ description: Designs and reviews accessible forms, search, validation, errors, g
 
 ## Form Rules
 
+For label and validation examples, see [EXAMPLES.md](EXAMPLES.md).
+
 1. Every field needs a persistent programmatic label.
 2. Placeholder text must not be the only label or instruction.
 3. Use native inputs and controls unless a custom widget is truly required.

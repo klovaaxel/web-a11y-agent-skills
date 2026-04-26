@@ -7,6 +7,8 @@ description: Validates accessibility with automated checks, keyboard walkthrough
 
 ## Test Order
 
+For repeatable smoke-check steps, see [CHECKS.md](CHECKS.md).
+
 1. Automated scan for changed surfaces.
 2. Keyboard-only journey.
 3. Screen reader smoke pass.

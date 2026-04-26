@@ -25,28 +25,82 @@ Public preview. Skill names and install flow may still change before 1.0.
 - Includes 10 portable skills, 5 Cursor subagents, 5 Claude Code subagents, 5 OpenCode subagents, and a Copilot prompt workflow.
 - Includes a small changelog, an example agent output, and a terminal-style skill list screenshot.
 
+## Use Cases
+
+### Build Accessible UI
+
+- Skill: `web-a11y-authoring`
+- Install:
+
+```bash
+npx skills@latest add klovaaxel/web-a11y-agent-skills/skills/web-a11y-authoring
+```
+
+### Review A PR
+
+- Skill: `web-a11y-review`
+- Install:
+
+```bash
+npx skills@latest add klovaaxel/web-a11y-agent-skills/skills/web-a11y-review
+```
+
+### Fix Known Defects
+
+- Skill: `web-a11y-orchestrator`
+- Install:
+
+```bash
+npx skills@latest add klovaaxel/web-a11y-agent-skills/skills/web-a11y-orchestrator
+```
+
+### Validate A Flow
+
+- Skill: `web-a11y-testing`
+- Install:
+
+```bash
+npx skills@latest add klovaaxel/web-a11y-agent-skills/skills/web-a11y-testing
+```
+
+### Handle Forms, Navigation, And Dynamic UI
+
+- Skills: `web-a11y-forms`, `web-a11y-navigation`, `web-a11y-dynamic-ui`
+- Install:
+
+```bash
+npx skills@latest add klovaaxel/web-a11y-agent-skills/skills/web-a11y-forms
+npx skills@latest add klovaaxel/web-a11y-agent-skills/skills/web-a11y-navigation
+npx skills@latest add klovaaxel/web-a11y-agent-skills/skills/web-a11y-dynamic-ui
+```
+
+### Debug Tricky Accessibility Issues
+
+- Skill: `web-a11y-debugging`
+- Install:
+
+```bash
+npx skills@latest add klovaaxel/web-a11y-agent-skills/skills/web-a11y-debugging
+```
+
 ## What's Included
 
-### Skills
+### Skills (10)
 
-- `web-a11y-orchestrator`: routes accessibility tasks to the right skills and coordinates the full workflow.
-- `web-a11y-authoring`: builds accessible components and pages using semantic-first implementation, including links, images, SVG, media, and controls.
-- `web-a11y-review`: reviews UI changes for accessibility defects and missing tests.
-- `web-a11y-testing`: validates UI with automation, keyboard checks, and screen reader smoke tests.
-- `web-a11y-forms`: covers labels, descriptions, grouping, validation, errors, search, and multi-step flows.
-- `web-a11y-navigation`: covers landmarks, headings, skip links, breadcrumbs, menus, disclosure, and wayfinding.
-- `web-a11y-dynamic-ui`: covers filters, pagination, live regions, progress, sorting, and data tables.
-- `web-a11y-css`: covers contrast, focus styles, reduced motion, forced colors, zoom, and CSS semantic integrity.
-- `web-a11y-web-components`: covers custom elements, Shadow DOM, slots, focus delegation, and ARIA limitations.
-- `web-a11y-debugging`: covers accessibility tree inspection, custom debug rules, CI checks, and tooling gaps.
+`web-a11y-orchestrator`, `web-a11y-authoring`, `web-a11y-review`, `web-a11y-testing`, `web-a11y-forms`, `web-a11y-navigation`, `web-a11y-dynamic-ui`, `web-a11y-css`, `web-a11y-web-components`, `web-a11y-debugging`.
 
-### Cursor Subagents
+### Cursor Subagents (5)
 
-- `a11y-orchestrator`
-- `a11y-component-writer`
-- `a11y-code-reviewer`
-- `a11y-remediator`
-- `a11y-test-driver`
+`a11y-orchestrator`, `a11y-component-writer`, `a11y-code-reviewer`, `a11y-remediator`, `a11y-test-driver`.
+
+## Compatibility Matrix
+
+| Platform | Skills | Agents/Prompts | Install |
+| --- | --- | --- | --- |
+| Cursor | Yes | Subagents | `node scripts/install-cursor-agents.mjs` |
+| Claude Code | Yes | Subagents | `node scripts/install-claude-skills.mjs` and `node scripts/install-claude-agents.mjs` |
+| GitHub Copilot | Yes | Prompt workflows | `node scripts/install-copilot-assets.mjs /path/to/project` |
+| OpenCode | Yes | Subagents | `node scripts/install-opencode-skills.mjs` and `node scripts/install-opencode-agents.mjs` |
 
 ## Install Skills
 

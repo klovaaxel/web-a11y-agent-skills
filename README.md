@@ -6,7 +6,7 @@ This library helps agents plan, build, review, remediate, and validate accessibl
 
 ## Status
 
-Private while incubating. Make the GitHub repository public only after the skill names, install flow, and examples feel stable.
+Public preview. Skill names and install flow may still change before 1.0.
 
 ## What's Included
 
@@ -36,13 +36,13 @@ Private while incubating. Make the GitHub repository public only after the skill
 The recommended install path is the open agent skills CLI. It discovers `skills/*/SKILL.md` in this repository.
 
 ```bash
-npx skills add <owner>/web-a11y-agent-skills -a cursor -g --skill '*'
+npx skills add klovaaxel/web-a11y-agent-skills -a cursor -g --skill '*'
 ```
 
 List available skills without installing:
 
 ```bash
-npx skills add <owner>/web-a11y-agent-skills --list
+npx skills add klovaaxel/web-a11y-agent-skills --list
 ```
 
 Install from a local checkout:

@@ -52,7 +52,8 @@
     "install:copilot": "node scripts/install-copilot-assets.mjs",
     "install:opencode": "node scripts/install-opencode-skills.mjs && node scripts/install-opencode-agents.mjs",
     "install:opencode-agents": "node scripts/install-opencode-agents.mjs",
-    "install:opencode-skills": "node scripts/install-opencode-skills.mjs"
+    "install:opencode-skills": "node scripts/install-opencode-skills.mjs",
+    "validate": "node scripts/validate-package.mjs"
   },
   "agents": {
     "skills": [
